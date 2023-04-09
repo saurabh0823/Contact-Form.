@@ -1,0 +1,88 @@
+/*This contain the border on body*/
+body {
+  padding: 0px;
+  border: 1.5px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  width: 20cm;
+  
+  
+  
+}
+
+
+/* This Contain the first box 
+background color and center alignment */
+div.box1{
+  background-color: rgb(0, 0, 0);
+  text-align-last: center;
+}
+
+/* this contain the first box */
+div.box1 {
+  padding: 0px;
+  border: 1.5px solid black;
+  margin: 10 px;
+  font-size: larger;
+  line-height:35px;
+  border-radius: 10px;
+}
+
+/* remove the gap between the text */
+div.box1 h1 {
+  margin: 0;
+}
+/* remove the gap between the text  and 
+h3 font smll and weight light*/
+div.box2 h3 {
+  line-height: 0px; 
+   font-size: smaller;
+  font-weight: lighter;
+  text-align-last:center;
+}
+div.box1,.box2{
+  color:rgb(255, 255, 255);
+}
+
+
+
+
+  /* the up code contain all the box and
+  text from first two line and the body border */
+
+
+
+
+
+/*This code is to remove the game from the text your name*/
+div.box3 p{
+  margin: 0px;
+}
+
+
+
+
+/*this code gices background*/
+div.baground{
+  background-color: aliceblue;
+  border-radius: 10px;
+  
+}
+form.entername{
+  background-color: aliceblue;
+}
+
+
+html{
+  width: 20cm;
+  margin: 0 auto;
+
+}
+
+.send input[type="button"] {
+  background-color:rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 9cm;
+  height: 40px;
+  margin-left: 200px;
+}
